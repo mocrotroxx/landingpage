@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <!-- Tête de page / Déclarations -->
+  <head>
+    <meta charset="utf-8">
+    <title>Univers Roleplay</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  
+</head>
+<!-- Corp de page -->
+  <body>
+
+    <header>
+      <!-- Header (navbar mes loulous) -->
+      <a href="#" class="logo">Univers Roleplay</a>
+      <nav>
+        <a href="#">Acceuil</a>
+        <a href="https://univers-rp.fr/">Forum</a>
+        <a href="https://discord.gg/YmnzpfzR">Discord</a>
+        <a href="samp://server.univers-rp.fr:7777">SAMP</a>
+        <a href="#">Télécharger les ressources</a>
+      </nav>
+    </header>
+    <!-- TITRE URP -->
+    <section class="home">
+      <img src="assets/back.png" alt="">
+      <div class="info">
+        <h2 class="title">URP</h2>
+        <!-- ESPACEMENT (oui jsavais pas comment faire)-->
+    <p class="paragraph"></p> 
+    <p class="paragraph"></p>
+    <p class="paragraph"></p>
+
+<!-- Fonction pour se connecter directement au serveur, ça l'ajoute dans ta liste de favoris. -->
+        <a href="samp://server.univers-rp.fr:7777" title ="Cliquez ici pour rejoindre directement notre serveur" class="btn">Rejoindre le serveur</a>
+      </div>
+    </section>
+    
+    <section class="content">
+      <h2>En savoir plus sur Univers Roleplay:</h2>
+      <p>Notre serveur a été fondé par <b>Vargas</b>,<b>Teddy</b> et <b>Erwann</b>, nous sommes sur une base de <b><i>RP2.0</i></b> entierement debug et modifier par notre developpeur <b>Juan'</b></bJuan></p><br>
+      <p>Nous vous proposons une immersion total dans le Roleplay, rejoignez-nous pour une experience unique mais surtout chill !</p><br>
+    
+    </section>
+<!-- Fonction en javascript pour le slide / scroll-->
+    <script type="text/javascript">
+        const logo = document.querySelector(".logo");
+        const nav = document.querySelector("nav");
+        const info = document.querySelector(".info");
+    
+        
+        window.addEventListener("load", () => {
+        
+          logo.style.transform = "translateY(0)";
+          nav.style.transform = "translateY(0)";
+    
+          setTimeout(() => {
+            info.style.transform = "translateY(0)";
+            info.style.opacity = "1";
+          }, 500);
+        });
+    
+        
+        window.addEventListener("scroll", () => {
+          const scrollVal = window.scrollY;
+    
+        
+          info.style.marginTop = scrollVal * 1.1 + "px";
+    
+         
+          info.style.transition = "0s";
+        });
+    
+        
+        window.onscroll = function(){
+          if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+            info.style.opacity = "0";
+            info.style.transition = "0.6s";
+          }
+          else{
+            info.style.opacity = "1";
+            info.style.transition = "0.6s";
+          }
+        }
+        </script>
+          <!-- Footer pris d'internet mais modifier à 100% par moi -->
+    
+          <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Univers Roleplay</h4>
+                        <ul>
+                           <li><a href="#">Acceuil</a></li>
+                           <li><a href="#">Forum</a></li>
+                           <li><a href="#">Discord</a></li>
+                           
+                           
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Besoin d'aide ?</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="https://univers-rp.fr/adminlist.php">L'équipe administrative</a></li>
+                            <li><a href="https://univers-rp.fr/statistiques.php">Statistiques</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Serveur</h4>
+                        <ul>
+                            <li><a href="#">Télécharger GTA</a></li>
+                            <li><a href="#">Télécharger SA:MP</a></li>
+                            <li><a href="#">Télécharger le cache</a></li>
+                            <li><a href="#">Rejoindre le serveur in game</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Suivez-nous sur:</h4>
+                        <div class="social-links">
+                            <a href="https://www.youtube.com/channel/UC7uVon0QLo8C6bSakGgjzhA"><i class="fab fa-youtube"></i></a>
+                            <a href="https://discord.gg/bneJ2V7d68"><i class="fab fa-discord"></i></a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+            
+            
+       </footer>
+       <!-- credits, laissez les svp (heaven je te vois venir)-->
+     <p class="footer-heart">
+        Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+      <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> by <a href="https://discord.gg/AjAfYrbK5v">troxx</a>
+      <br>Copyright 2021 All right reserved
+      </p>
+
+      
+  </body>
+</html>
+      
