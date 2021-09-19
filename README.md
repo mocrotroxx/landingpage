@@ -10,3 +10,15 @@ et aussi, pas touches aux credits mes loulou.
 Faites-en bonne usage !
 
 much love <3
+
+> ***Pourquoi tu fais ça ?*** 
+
+Je part d'une citation juive, et qui incite sur le fait d'aider les gens. c'est pour ça je me lance.
+
+Je restes à dispo pour chaque demande / support etc
+
+j'ai tout détailler prenez le comme source d'inspi ou base de code il est complet en vrai et aussi j'ai fais des magouilles en javascript !
+
+Suivez moi sur github et laissez une petite reaction (jsp si c possible) ca fait toujours plaisir !
+=> **Démo**: http://troxxito.epizy.com
+=> ***Lien :*** https://github.com/mocrotroxx/landingpage
